@@ -1,0 +1,8 @@
+km = int (input("digite o km rodado"))
+litros = float (input("digite a quantidade de litros"))
+
+if km>0 and litros>0:
+    result = km/litros
+    print(result)
+else:
+    print(f"valor não pode ser menor que 0")
