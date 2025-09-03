@@ -1,4 +1,4 @@
-dep_trabalhado = input("qual seu departamento?(ex:desenvolvimento de software, marketing, recusos humanos, pesquisa e desenvolvimento")
+dep_trabalhado = input("qual seu departamento?(ex:desenvolvimento de software, marketing, recursos humanos, pesquisa e desenvolvimento")
 
 if dep_trabalhado == "desenvolvimento de software":
     print("o recomendado é um laptop")
@@ -10,3 +10,4 @@ elif dep_trabalhado == "pesquisa e desenvolvimento":
     print("para esse departamento, o recomendado são equipamentos com especificações de ultima geração")
 else:
     print("tente novamente, com uma das áreas dadas como exemplo")
+
