@@ -1,0 +1,6 @@
+c = int(input("quantos metros você vai percorrer?"))
+n = int(input("qual o tamanho da pista?"))
+
+ponto = c % n
+print("ponto de termino")
+print(ponto)
